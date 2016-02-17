@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sov.sofysmo.emptydaily" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme" >
+        <activity android:name=".DirChooserSample" >
+        </activity>
+        <activity android:name="net.rdrei.android.dirchooser.DirectoryChooserActivity" >
+        </activity>
+        <!-- parentActivityName is API 16+ -->
+        <activity
+            android:name=".DirChooserFragmentSample"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".DirChooserSample"
+            tools:ignore="UnusedAttribute" >
+        </activity>
+        <activity
+            android:name=".TextBlank"
+            android:label="@string/title_activity_text_blank"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <activity
+            android:name=".DialyBlank"
+            android:label="@string/title_activity_dialy_blank" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

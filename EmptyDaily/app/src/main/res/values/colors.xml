@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bright_blue">#33B5E5</color>
+
+    <!-- Use Gingerbread-orange -->
+    <color name="selection_background_color">#FEBB20</color>
+    <color name="toolbar_orange">#F44336</color>
+    <color name="status_bar_orange">#c1362b</color>
+</resources>

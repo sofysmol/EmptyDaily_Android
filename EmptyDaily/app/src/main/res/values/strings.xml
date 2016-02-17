@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">EmptyDaily</string>
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="save_button">Save</string>
+
+    <string name="title_activity_dir_chooser">DirChooser</string>
+    <string name="directory_selected_label">Directory selected:</string>
+    <string name="choose_directory">Choose Directory</string>
+    <string name="none">none</string>
+
+    <string name="btn_choose">Choose in Dialog</string>
+    <string name="btn_switch">Switch to Dialog Sample</string>
+    <string name="title_activity_text_blank">Text Blank</string>
+    <string name="saveButton">Save</string>
+    <string name="TextData">Time</string>
+    <string name="canselButton">Cansel</string>
+    <string name="title_activity_dialy_blank">DialyBlank</string>
+
+    <string name="edit">Edit</string>
+    <string name="microphone">Microphone</string>
+    <string name="remove">Remove</string>
+    <string name="checked">Checked</string>
+    <string name="search_hint">Company name</string>
+    <string name="seetings">Settings</string>
+    <string name="share">Share</string>
+    <string name="donate">Donate</string>
+    <string name="sort_ab">Sort alphabetically</string>
+</resources>
